@@ -1,0 +1,20 @@
+class(Hola)
+	declare Nombre of string;
+	declare Edad of int;
+	Nombre="Pedro Castro";
+	Edad=22;
+	
+	if(Edad>18)
+		write("Hola");
+	endif;
+
+	while(Edad==22)
+		read(Edad);
+	endwhile
+	;
+	#Hola Comentario
+	do
+	
+		write(Edad);
+	while(Edad== 23)enddo;
+endclass
